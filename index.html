@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>shanjai's site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style media="screen">
+
+    html{
+      scroll-behavior: smooth;
+    }
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    nav{
+      width: 100%;
+      background:#white;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+    }
+    ul{
+      padding: 0;
+      margin: 0;
+      list-style:none;
+    }
+    li{
+      float: left;
+    }
+    .top{
+      padding: 20px;
+      width: 100px;
+      display: block;
+      text-decoration: none;
+      color: #cee6b4;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .tit{
+      color:white;
+      font-weight: 100;
+      padding-top: 60px;
+      font-size: 30px;
+    }
+    .sec1{
+      line-height: .1px;
+      font-weight: 100;
+      text-align: center;
+      padding-top: 90px;
+      color: #ffe459;
+      font-size: 30px;
+    }
+    .sect1{
+      color: #fde49c;
+      line-height: 0x;
+      font-weight: 100;
+      text-align: center;
+      padding-top: 35px;
+      font-size: 40px;
+    }
+    .pic{
+      height: 250px;
+      border-radius:50%;
+    }
+    .sec2{
+      color:gold;
+      font-size: 30px;
+    }
+    .secti2{
+      color: white;
+    }
+    .sect2{
+    color: white;
+    line-height: 30px;
+    }
+    #section1{
+      height:800px;
+      background-image: url(hme.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: inline-block;
+      width:100%;
+    }
+    #section2{
+      height:800px;
+      background-image: url(image.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: inline-block;
+      width:100%;
+    }
+    #section3{
+      height:800px;
+      background-image: url(imgg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: inline-block;
+      width:100%;
+    }
+    #section4{
+      height:800px;
+      background-image: url(cnt.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: inline-block;
+      width:100%;
+    }
+    .btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: Georgia;
+    color: #e8bce8;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    }
+    .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    }
+    .footer-link{
+      background: #3498db;
+      background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+      background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+      background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+      background-image: -o-linear-gradient(top, #3498db, #2980b9);
+      background-image: linear-gradient(to bottom, #3498db, #2980b9);
+      -webkit-border-radius: 2;
+      -moz-border-radius: 2;
+      border-radius:  2px;
+      font-family:  Georgia;
+      color: #e8bce8;
+      font-size: 25px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+      }
+      .footer-link:hover {
+      background: #white;
+      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+      text-decoration: none;
+
+    }
+    .bottom{
+      color: #faff00;
+      text-align: left;
+      font-weight:lighter;
+      font-size: 30px;
+    }
+    .btn{
+      text-align: left;
+      padding-top: 500px;
+      color:#cd0a0a;
+      font-size: 30px;
+    }
+    .pa{
+      color:red;
+    }
+
+    </style>
+      </head>
+  <body>
+      <nav>
+           <ul>
+             <li><a class="top" href="#section1">HOME</a></li>
+             <li><a class="top" href="#section2">ABOUT</a></li>
+             <li><a class="top"href="#section4">CONTACT</a></li>
+           </ul>
+      </nav>
+      <div id="section1">
+        <h2 class="sec1">First,solve the problem.</h2>
+        <h2 class="sec1">Then,write the code.</h2>
+        <h3 class="sect1">I'm Shanjai,</h3>
+        <h3 class="sect1">An Aspirant Web Developer.</h3>
+      </div>
+      <div id="section2">
+        <h1 class="tit">ABOUT</h1>
+        <table>
+          <tr>
+            <td><img class="pic" src="shanjaik.jpg" alt=""></td>
+            <td><h2 class="sec2">SHANJAI KUMAR.</h2></td>
+          </tr>
+        </table>
+        <p class="sec2">I am a web developer.I was a B.sc graduate with <i class="secti2"><u>computer technology</u></i> course.</p>
+        <table class="sect2">
+          <tbody>
+            <tr>
+              <td>1.D.O.B:</td>
+              <td>14/03/2000</td>
+            </tr>
+            <tr>
+              <td>2.MARITAL STATUS:</td>
+              <td>Single</td>
+            </tr>
+            <tr>
+              <td>3.OCCUPATION:</td>
+              <td>Developer and Designer</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="section4">
+        <h1 class="tit">CONTACT</h1>
+        <div class="bottom">
+          <h3>Coimbatore,Tamilnadu</h3>
+          <p>MOBILE:+91 8072982643</p>
+        </div>
+          <footer>
+            <div class="footer">
+              <a class="footer-link" href="mailto:"shanjaikumar143@gmail.com"subject=feedback">GMAIL</a>
+              <a class="footer-link" href="https://www.instagram.com/_.shanjai._/">Instagram</a>
+              <p class="pa">© 2021 Shanjai Kumar.</p>
+            </div>
+          </footer>
+      </div>
+  </body>
+</html>
